@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ahmedgaafer/react-custom-hooks/static/css/main.228a8900.chunk.css",
+    "main.js": "/ahmedgaafer/react-custom-hooks/static/js/main.38c676c1.chunk.js",
+    "main.js.map": "/ahmedgaafer/react-custom-hooks/static/js/main.38c676c1.chunk.js.map",
+    "runtime-main.js": "/ahmedgaafer/react-custom-hooks/static/js/runtime-main.895eaf61.js",
+    "runtime-main.js.map": "/ahmedgaafer/react-custom-hooks/static/js/runtime-main.895eaf61.js.map",
+    "static/js/2.d0c0f112.chunk.js": "/ahmedgaafer/react-custom-hooks/static/js/2.d0c0f112.chunk.js",
+    "static/js/2.d0c0f112.chunk.js.map": "/ahmedgaafer/react-custom-hooks/static/js/2.d0c0f112.chunk.js.map",
+    "index.html": "/ahmedgaafer/react-custom-hooks/index.html",
+    "static/css/main.228a8900.chunk.css.map": "/ahmedgaafer/react-custom-hooks/static/css/main.228a8900.chunk.css.map",
+    "static/js/2.d0c0f112.chunk.js.LICENSE.txt": "/ahmedgaafer/react-custom-hooks/static/js/2.d0c0f112.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.895eaf61.js",
+    "static/js/2.d0c0f112.chunk.js",
+    "static/css/main.228a8900.chunk.css",
+    "static/js/main.38c676c1.chunk.js"
+  ]
+}
