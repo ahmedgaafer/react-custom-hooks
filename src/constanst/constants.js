@@ -1,3 +1,3 @@
 export const links = [
-	'https://github.com/ahmedgaafer/react-custom-hooks/blob/main/src/Hooks/useCounter.js',
+	'https://github.com/ahmedgaafer/react-custom-hooks/blob/master/src/Hooks/useCounter.js',
 ];

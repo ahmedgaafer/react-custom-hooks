@@ -9,6 +9,7 @@ import Tooltip from '@mui/material/Tooltip';
 
 function Counter(props) {
 	const counter = useCounter();
+
 	const iconButtonOptions = {
 		color: 'antiquewhite',
 	};
@@ -26,6 +27,7 @@ function Counter(props) {
 	};
 	return (
 		<div>
+			<h3>useCounter</h3>
 			<p>You Clicked {counter.value} Times.</p>
 			<div>
 				<Button sx={buttonOptions} variant="contained" onClick={counter.reset}>
@@ -42,7 +44,7 @@ function Counter(props) {
 					</IconButton>
 				</Tooltip>
 			</div>
-			<div style={{ marginTop: '10%' }}>
+			<div>
 				<Tooltip title="GitHub Hook Code">
 					<IconButton sx={iconButtonOptions} onClick={openGitHubCode}>
 						<GitHubIcon sx={{ fontSize: 40 }} />

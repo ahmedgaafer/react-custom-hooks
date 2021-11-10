@@ -9,7 +9,7 @@ const Grid = withGrid([Counter]);
 function App() {
 	return (
 		<div className="App">
-			<h1>Useful Custom React Hooks</h1>
+			<h1>Useful React Custom Hooks</h1>
 			<Container>
 				<Grid link={links} />
 			</Container>
