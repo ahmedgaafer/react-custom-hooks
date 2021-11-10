@@ -1,17 +1,16 @@
 import { withGrid } from './HOC/withGrid';
 import './App.css';
 import { Container } from '@mui/material';
-import Counter from './Components/Counter';
-import { links } from './constanst/constants';
+import components from './Components';
 
-const Grid = withGrid([Counter]);
+const Grid = withGrid(components);
 
 function App() {
 	return (
 		<div className="App">
 			<h1>Useful React Custom Hooks</h1>
 			<Container>
-				<Grid link={links} />
+				<Grid />
 			</Container>
 		</div>
 	);
