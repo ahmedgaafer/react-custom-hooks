@@ -7,24 +7,14 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import Tooltip from '@mui/material/Tooltip';
 
+import { buttonOptions, iconButtonOptions, iconSizes } from '../constants';
+
 function Counter(props) {
 	const counter = useCounter();
-
-	const iconButtonOptions = {
-		color: 'antiquewhite',
-	};
-	const buttonOptions = {
-		backgroundColor: 'antiquewhite',
-		color: '#2E2E2E',
-		'&:hover': {
-			backgroundColor: 'antiquewhite',
-			color: '#2E2E2E',
-		},
-	};
-
 	const openGitHubCode = () => {
 		window.open(props.link);
 	};
+
 	return (
 		<div>
 			<h3>useCounter</h3>
@@ -35,19 +25,19 @@ function Counter(props) {
 				</Button>
 				<Tooltip title="Increase">
 					<IconButton sx={iconButtonOptions} onClick={counter.increase}>
-						<AddCircleIcon sx={{ fontSize: 30 }} />
+						<AddCircleIcon sx={{ fontSize: iconSizes.normal }} />
 					</IconButton>
 				</Tooltip>
 				<Tooltip title="decrease">
 					<IconButton sx={iconButtonOptions} onClick={counter.decrease}>
-						<RemoveCircleIcon sx={{ fontSize: 30 }} />
+						<RemoveCircleIcon sx={{ fontSize: iconSizes.normal }} />
 					</IconButton>
 				</Tooltip>
 			</div>
 			<div>
 				<Tooltip title="GitHub Hook Code">
 					<IconButton sx={iconButtonOptions} onClick={openGitHubCode}>
-						<GitHubIcon sx={{ fontSize: 40 }} />
+						<GitHubIcon sx={{ fontSize: iconSizes.GitHub }} />
 					</IconButton>
 				</Tooltip>
 			</div>
