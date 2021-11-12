@@ -6,10 +6,14 @@ export function withBox(WrappedComponent) {
 		<Box
 			sx={{
 				width: 300,
-				height: 200,
+				minHeight: 250,
+				maxHeight: 250,
 				backgroundColor: '#2e2e2e',
 				border: '1px solid antiquewhite',
 				margin: '1vh',
+				display: 'flex',
+				justifyContent: 'center',
+				alignItems: 'center',
 			}}
 		>
 			<WrappedComponent {...props} />
