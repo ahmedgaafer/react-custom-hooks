@@ -11,7 +11,11 @@ To contribute to this project simply make a pull request
   - [Repository Structure](#repository-structure)
 - [Pull Request Guide](#pull-request-guide)
 - [Using our default styling](#using-our-default-styling)
-- [Code Examples on How to contribute](#code-examples-on-how-to-contribute) - [Creating the Hook](#creating-the-hook) - [Creating the component that uses the Hook](#creating-the-component-that-uses-the-hook) - [Adding component to index.js](#adding-component-to-indexjs) - [Adding the component to the readme list:](#adding-the-component-to-the-readme-list)
+- [Code Examples on How to contribute](#code-examples-on-how-to-contribute)
+  - [Creating the Hook](#creating-the-hook)
+  - [Creating the component that uses the Hook](#creating-the-component-that-uses-the-hook) 
+  - [Adding component to index.js](#adding-component-to-indexjs) 
+  - [Adding the component to the readme list](#adding-the-component-to-the-readme-list)
 
 ## Repository Structure
 
